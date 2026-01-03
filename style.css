@@ -1,0 +1,6 @@
+@import url("styles/global.css");
+@import url("styles/layout/header.css");
+@import url("styles/components/crud.css");
+@import url("styles/components/form.css");
+@import url("styles/layout/footer.css");
+@import url("styles/components/button.css");

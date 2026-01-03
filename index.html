@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Tarefas</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
         <header>
@@ -20,12 +22,12 @@
                     <label for="taskName">Nome da Tarefa:</label>
                     <input type="text" id="taskName" placeholder="Digite o nome da tarefa" required>
                 </div>
-                
+
                 <div class="form-group">
                     <label for="taskDescription">Descrição:</label>
                     <textarea id="taskDescription" rows="3" placeholder="Digite uma descrição (opcional)"></textarea>
                 </div>
-                
+
                 <div class="form-group">
                     <label for="taskStatus">Status:</label>
                     <select id="taskStatus">
@@ -34,7 +36,7 @@
                         <option value="Feita">Feita</option>
                     </select>
                 </div>
-                
+
                 <button type="submit" class="btn-add">Adicionar Tarefa</button>
             </form>
         </div>
@@ -66,12 +68,24 @@
         </div>
 
         <footer>
-            <h3>Padrões de Projeto Utilizados:</h3>
-            <p><strong>Singleton:</strong> Classe TaskManager garante uma única instância</p>
-            <p><strong>Observer:</strong> Interface atualiza automaticamente quando há mudanças</p>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Sobre o Projeto</h3>
+                    <p>Sistema de gerenciamento de tarefas desenvolvido para a disciplina de Engenharia de Software.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Equipe</h3>
+                    <p>Ruan Pactrick de Sousa e Sousa - Eduardo Oliveira - João Pedro Moura de Mendonça</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Tecnologias</h3>
+                    <p>HTML5 | CSS3 | JavaScript</p>
+                </div>
+            </div>
         </footer>
     </div>
 
     <script src="script.js"></script>
 </body>
+
 </html>
